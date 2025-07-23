@@ -7,7 +7,7 @@ const path = require('path'); // required to set the views directory for ejs fil
 
 // const chalk = require('chalk'); // not supported in latest version
 // import chalk from 'chalk'; // but, since we have used require in express so we cannot import the things with two different methods
-const chalk = require('chalk'); // so, we will use the previous version of chalk to make able to use this module using require
+// const chalk = require('chalk'); // so, we will use the previous version of chalk to make able to use this module using require
 // Otherwise, we need to change the syntax of require in express to import one...
 
 // app.listen(port, () => {
