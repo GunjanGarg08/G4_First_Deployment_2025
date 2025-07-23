@@ -1,0 +1,21 @@
+app.use() -> used to create middleware function
+
+REST APIs - see full form once
+Internet -> Server -> RestAPIs
+
+get -> retrieve information
+post -> frontend to backend
+patch -> update data
+delete -> remove data
+
+get_user -> /user -> app.get('/user)
+add_user -> /user -> app.post('/user)
+remove_user -> /user -> app.delete('/user)
+update_user -> /user -> app.patch('/user)
+
+// Information storing ways
+SQL Database - tables
+NoSQL Database - in form of key value pairs, eg... MongoDB in JSON format
+
+normally, JavaScript Object hote hai... uspe double quotes lagakr string banadi toh voh JSON format hota hai
+JSON main koi operation perform nahi karr sakte... uske liye haame isse JS Object main convert krna padega
